@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.todo-box{
+    background-color:pink;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+    max-width: 500px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+
+}
+
+.todo-header{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-title{
+    font-size: 24px;
+    margin:0;
+}
+
+.todo-icon{
+    width: 30px;
+    height:auto;
+}
+.todo-input{
+    display:flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap:wrap;
+}
+
+.task-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+.add-button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-button:hover {
+    background-color: #e0559a;
+}
+  
+.todo-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.todo-list li{
+    background-color: antiquewhite;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    gap:2px;
+
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* When checkbox is checked, strike through the task text */
+  .task-check:checked + .task-text {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+.delete-btn{
+    border:none;
+    color:purple ;
+    background-color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    color:pink;
+}
+
