@@ -17,7 +17,7 @@ A simple and clean To-Do List application built using **HTML**, **CSS**, and **J
 
 Here are some screenshots of the app:
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](screenshot1.png)s
 
 ![Screenshot 2](screenshot2.png)
 
